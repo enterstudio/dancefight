@@ -1,6 +1,7 @@
 require 'squib'
 
-deck = Squib.xlsx file: 'even-bigger.xlsx'
+deck = Squib.xlsx file: 'even-bigger.xlsx', strip: false, sheet: 0
+
 Squib::Deck.new(cards: deck.nrows, layout: %w(hand.yml even-bigger.yml)) do
   background color: '#230602'
   svg file: deck['Art'], layout: 'Art'
