@@ -1,7 +1,7 @@
 Title:
   extends: title # from hand.yml
   font: ChunkFive Roman,Sans 58
-  color: '#F3EFE3'
+  color: '#230602'
   align: center
   spacing: -15
 
@@ -11,7 +11,7 @@ Art:
 Description:
   extends: description # from hand.yml
   font: Sans 36
-  color: '#F3EFE3'
+  color: '#230602'
   align: center
 
 Snark:
@@ -19,29 +19,29 @@ Snark:
   font: Sans italic 18
   align: center
   valign: middle
-  color: '#F3EFE3'
+  color: '#230602'
 
-Attack:
+Punch-Blast:
   extends: bonus1 # from hand.yml
   font: ChunkFive Roman,Sans 48
-  color: '#F3EFE3'
+  color: '#230602'
   y: += 70
-AttackIcon:
+Punch-BlastIcon:
   extends: bonus1 # from hand.yml
   x: += 40
   width: -= 40
   height: -= 40
 
-Defend:
-  extends: Attack
+G-Clef:
+  extends: Punch-Blast
   y: += 200
-DefendIcon:
-  extends: AttackIcon
+G-ClefIcon:
+  extends: Punch-BlastIcon
   y: += 200
 
-Health:
-  extends: Defend
+Glass-Heart:
+  extends: G-Clef
   y: += 200
-HealthIcon:
-  extends: DefendIcon
+Glass-HeartIcon:
+  extends: G-ClefIcon
   y: += 200
