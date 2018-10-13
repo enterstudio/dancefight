@@ -1,5 +1,5 @@
 Title:
-  extends: title # from hand.yml
+  extends: title # from dance-layout.yml
   font: ChunkFive Roman,Sans 58
   color: '#230602'
   align: center
@@ -9,25 +9,25 @@ Art:
   extends: art
 
 Description:
-  extends: description # from hand.yml
+  extends: description # from dance-layout.yml
   font: Sans 36
   color: '#230602'
   align: center
 
 Snark:
-  extends: snark # from hand.yml
-  font: Sans italic 18
+  extends: snark # from dance-layout.yml
+  font: Sans italic 24
   align: center
   valign: middle
   color: '#230602'
 
 Punch-Blast:
-  extends: bonus1 # from hand.yml
+  extends: bonus1 # from dance-layout.yml
   font: ChunkFive Roman,Sans 48
   color: '#230602'
   y: += 70
 Punch-BlastIcon:
-  extends: bonus1 # from hand.yml
+  extends: bonus1 # from dance-layout.yml
   x: += 40
   width: -= 40
   height: -= 40
